@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: 0;
+}
+
+body {
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;    
+    background-color: #E9EBF8;
+}
+
+.box {
+    background-color: white;
+    border-radius: 32px;
+    width: 618px;
+    height: 870px;
+    box-shadow: 0 34px 44px rgba(0, 11, 115, 0.1);
+    padding: 64px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+.text {
+    color: #0C1033;
+    text-align: center;
+}
+
+.text .title {
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin-bottom: 7px;  
+    color: inherit;
+}
+
+.text .description {
+    width: 338px;
+    color: inherit;    
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.payment .form-group {
+    width: 490px;
+    height: 224px;
+    display: flex;
+    place-items: center;
+    border: 7px solid #E9EBF8;
+    border-radius: 8px;
+    /* t r b l */
+    padding: 0 0 0 42px;
+    cursor: pointer;
+}
+
+.payment .form-group .left_icon{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;   
+    background-color: transparent; 
+    border: 3px solid #0C1033;
+    display: flex;
+    place-items: center;
+}
+
+.payment .form-group .left_icon svg {
+    margin: 0 auto;
+}
+
+.payment .form-group .right_details {
+    margin-left: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #0C1033;
+}
+
+.payment .form-group .right_details .month {
+    font-size: 18px;
+    font-weight: inherit;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.payment .form-group .right_details .weeks {
+    font-size: 24px;
+    font-weight: inherit;
+    color: inherit;
+    margin: 5px 0;
+}
+
+.payment .form-group .right_details .year {
+    font-size: 18px;
+    font-weight: inherit;
+    color: inherit;
+}
+
+.payment .form-group .right_details button {
+    width: 126px;
+    height: 35px;
+    background-color: #2F42EE;
+    color: white;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.payment .active {
+    border: 2px solid #2F42EE;
+}
+
+.payment .form-group:first-child {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.button-group .continue {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    width: 350px;
+    height: 75px;
+    background-color: #0C1033;
+    border-radius: 45px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.button-group .paypal button {
+    cursor: pointer;
+    width: 350px;
+    height: 83px;
+    border: 3px solid #E9EBF8;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0C1033;
+    font-family: inherit;
+    border-radius: 45px;
+    padding-right: 85px;
+}
+
+.button-group .paypal {
+    position: relative;
+    display: flex;
+    place-items: center;
+}
+
+.button-group .paypal .paypal_svg {
+    position: relative;
+    display: flex;
+    place-items: center;
+}
+
+.button-group .paypal .paypal_svg svg{
+    position: absolute;
+    right: 67px;
+}
+
+.offer {
+    font-size: 18px;
+    font-family: inherit;
+    color: #2F42EE;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.payment {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+.btnActive {
+    background-color: #0C1033!important;
+}
+
+.continue:hover {
+    box-shadow: 0 0px 15px rgb(0 11 115 / 50%);
+}
